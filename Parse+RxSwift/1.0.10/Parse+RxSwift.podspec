@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Parse+RxSwift"
-  s.version      = "1.0.9"
+  s.version      = "1.0.10"
   s.summary      = "A collection of wrapper classes that allow you to use RxSwift Observers in place of Parse's callbacks."
   s.homepage     = "https://github.com/szalay-kund/Parse-RxSwift"
   s.license      = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.source_files = "Parse+RxSwift"
   s.frameworks  = "UIKit", "Foundation"
   s.requires_arc = true
-  s.dependencies = { "Parse" => ">= 1.9.0", "RxSwift" => "~> 2.0" }
+  s.dependencies = { "Parse" => "1.9.0", "RxSwift" => "2.6.1" }
 end
